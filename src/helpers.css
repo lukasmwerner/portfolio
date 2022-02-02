@@ -1,6 +1,7 @@
 html {
     color: #777d6d;
     background-color: #f0f1ff;
+    scroll-behavior: smooth;
     
 }
 h1 {
