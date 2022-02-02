@@ -1,0 +1,49 @@
+.arrow {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.bouncing {
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-name: bounce;
+}
+@keyframes bounce {
+0% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-10px);
+}
+100% {
+    transform: translateY(0);
+}
+}
+.h-full {
+    height: 100vh;
+}
+
+.serifed {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
