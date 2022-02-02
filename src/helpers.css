@@ -1,5 +1,18 @@
+html {
+    color: #777d6d;
+    background-color: #f0f1ff;
+    
+}
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 .arrow {
-    border: solid black;
+    border: solid #777d6d;
     border-width: 0 10px 10px 0;
     display: inline-block;
     padding: 10px;
@@ -47,3 +60,19 @@
     font-family: 'Lora', serif;
     font-weight: 500;
 }
+
+.p0 {
+    padding: 0;
+  }
+  .m0 {
+    margin: 0;
+  }
+  .p2 {
+    padding: 2rem;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }

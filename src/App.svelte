@@ -1,5 +1,7 @@
 <script>
-  import Hero from "./Hero.svelte";
+  import Extracirriculars from "./Extracirriculars.svelte";
+import Hero from "./Hero.svelte";
 </script>
 
 <Hero />
+<Extracirriculars />
