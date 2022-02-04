@@ -98,7 +98,7 @@
   #profile-picture {
     position: relative;
     left: 10%;
-    top: -40%;
+    top: -13rem;
     width: min-content;
   }
   #profile-picture img {
