@@ -1,6 +1,30 @@
+:root {
+    --fg-color: #777d6d;
+    --bg-color: #d6d8d3; /*#f0f1ff;*/
+    --bg-alt-color: #9fa498; /*#f0f1ff*/
+    --bg-lt-color: #e3e5e1;
+}
+
+a {
+    color: #6D777D;
+}
+a:link {
+    color: #6D777D;
+}
+a:visited {
+    color: #575f64;
+}
+a:hover {
+    color: #6D777D;
+}
+a:active {
+    color: #989fa4;
+}
+
+
 html {
-    color: #777d6d;
-    background-color: #f0f1ff;
+    color: var(--fg-color);
+    background-color: var(--bg-color);
     scroll-behavior: smooth;
     
 }
@@ -77,3 +101,10 @@ p {
     align-items: center;
     position: relative;
   }
+  .healthyspace {
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.healthyspace > h1 {
+    font-size: 3.5rem;
+}

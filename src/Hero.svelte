@@ -17,7 +17,7 @@
       <div class="box p2 m0" id="desc-box">
         <div>
           <p class="serifed p0 m0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie felis eget augue iaculis mattis. Vestibulum a imperdiet erat. Cras nec fringilla eros. Ut consequat a magna ut volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras at metus et sem pretium commodo. Aliquam luctus vitae ex id sagittis.
+           One of the things I enjoyed the most at La Salle was being able to spend my time doing the things I love: Programming, Running, Building Robots, 3D Printing, Photography. This would not have been possible if it wasnt for the cources that were created with such enthusiasm by our wonderful teachers.
           </p>
         </div>
       </div> 
@@ -45,30 +45,31 @@
   }
   /* Backgrounds: -> https://www.magicpattern.design/tools/css-backgrounds */
   .bg-grid {
-    background-color: #f0f1ff;
+    background-color: var(--bg-alt-color);
     background-image: linear-gradient(#b6bab0 0.9px, transparent 0.9px),
-      linear-gradient(to right, #b6bab0 0.9px, #f0f1ff 0.9px);
+      linear-gradient(to right, #b6bab0 0.9px, var(--bg-alt-color) 0.9px);
     background-size: 18px 18px;
   }
   .bg-dots {
-    background-color: #f0f1ff;
+    background-color: var(--bg-color);
     background-image: radial-gradient(
       #b6bab0 1.4500000000000002px,
-      #f0f1ff 1.4500000000000002px
+      var(--bg-color) 1.4500000000000002px
+      /*#f0f1ff 1.4500000000000002px*/
     );
     background-size: 29px 29px;
   }
   .box {
     opacity: 1;
-    background-color: #f0f1ff;
+    background-color: var(--bg-lt-color);
     position: relative;
   }
 
   #hero-box {
     width: 50%;
-    -webkit-box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
-    -moz-box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
-    box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
+    -webkit-box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
+    -moz-box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
+    box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
     position: relative;
     z-index: 1;
     left: 45%;
@@ -79,9 +80,9 @@
   }
   #desc-box {
     width: 50%;
-    -webkit-box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
-    -moz-box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
-    box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
+    -webkit-box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
+    -moz-box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
+    box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
     position: relative;
     z-index: 1;
     left: 40%;
@@ -104,8 +105,37 @@
   #profile-picture img {
     opacity: 1;
     height: 50vh;
-    -webkit-box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
-    -moz-box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
-    box-shadow: 20px 20px 0px 9px rgba(216, 216, 229, 1);
+    -webkit-box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
+    -moz-box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
+    box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
+  }
+  @media only screen and (max-width:1300px) {
+    #desc-box {
+      left: 45%;
+    }
+    #profile-picture {
+      top: -50%;
+    }
+  }
+  @media only screen and (max-width:1000px) {
+    #profile-picture {
+      top: -60%;
+      left: 5%;
+    }
+  }
+  @media only screen and (max-width:900px) {
+    #profile-picture {
+      top: -60%;
+      left: 10%;
+    }
+    #profile-picture img {
+      height: auto;
+      max-width: 22.5vw;
+    }
+    #desc-box {
+      left: 5%;
+      top: 20%;
+      width: 85%;
+    }
   }
 </style>

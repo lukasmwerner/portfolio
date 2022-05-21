@@ -6,8 +6,9 @@
     <a href="#home">Home</a>
     <a href="#extrac">Extra Curriculars</a>
     <a href="#service">Service</a>
-    <a href="#projects">Projects</a>
     <a href="#photos">Photos</a>
+    <a href="#awards">Awards</a>
+    <a href="#work">Body of Work</a>
 </div>
 
 <style>
@@ -20,7 +21,7 @@
         top: 0;
         right: 0;
         left: 0;
-        background-color: #f0f1ff;
+        background-color: var(--bg-color);
         font-family: 'Roboto', sans-serif;
         z-index: 10;
     }

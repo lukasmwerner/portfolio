@@ -26,13 +26,3 @@
     <h1>Photos</h1>
     <Gallery images={images} rowHeight={300} />
 </div>
-
-<style>
-    .healthyspace {
-        margin-left: 8vw;
-        margin-right: 8vw;
-    }
-    .healthyspace > h1 {
-        font-size: 3.5rem;
-    }
-</style>
