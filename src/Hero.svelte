@@ -17,10 +17,21 @@
       <div class="box p2 m0" id="desc-box">
         <div>
           <p class="serifed p0 m0">
-           One of the things I enjoyed the most at La Salle was being able to spend my time doing the things I love: Programming, Running, Building Robots, 3D Printing, Photography. This would not have been possible if it wasnt for the cources that were created with such enthusiasm by our wonderful teachers.
+            One of the things I enjoyed the most at La Salle was being able to
+            spend my time doing the things I love: Programming, Running,
+            Building Robots, 3D Printing, Photography. This would not have been
+            possible if it wasnt for the cources that were created with such
+            enthusiasm by our wonderful teachers. The values that I will keep
+            with me are "Quality Education" and "Respect for All Persons." I
+            find that the "Quality Education" makes life simpler because one
+            already understands what or will know how to understand. "Respect for
+            All Persons" also ties into that because if I have respect for others
+            then I will be able to better learn from others and the cycle will
+            continue. As for my plans for the future... They are still up in the 
+            air as I have many options still available to me.
           </p>
         </div>
-      </div> 
+      </div>
       <div id="profile-picture">
         <img src={profilePicture} alt="Lukas Werner" />
       </div>
@@ -54,8 +65,7 @@
     background-color: var(--bg-color);
     background-image: radial-gradient(
       #b6bab0 1.4500000000000002px,
-      var(--bg-color) 1.4500000000000002px
-      /*#f0f1ff 1.4500000000000002px*/
+      var(--bg-color) 1.4500000000000002px /*#f0f1ff 1.4500000000000002px*/
     );
     background-size: 29px 29px;
   }
@@ -109,7 +119,7 @@
     -moz-box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
     box-shadow: 20px 20px 0px 9px var(--bg-alt-color);
   }
-  @media only screen and (max-width:1300px) {
+  @media only screen and (max-width: 1300px) {
     #desc-box {
       left: 45%;
     }
@@ -117,13 +127,13 @@
       top: -50%;
     }
   }
-  @media only screen and (max-width:1000px) {
+  @media only screen and (max-width: 1000px) {
     #profile-picture {
       top: -60%;
       left: 5%;
     }
   }
-  @media only screen and (max-width:900px) {
+  @media only screen and (max-width: 900px) {
     #profile-picture {
       top: -60%;
       left: 10%;

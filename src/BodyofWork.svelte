@@ -18,9 +18,9 @@
     </div>
     <div>
       <h1>English Reflective Speech</h1>
-      <div class="center">
+      <div class="split">
         <iframe
-          width="560"
+          width="350"
           height="315"
           src="https://www.youtube-nocookie.com/embed/1tvtL8xaaks"
           title="YouTube video player"
@@ -28,13 +28,19 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         />
+        <iframe
+          width="560"
+          height="315"
+          title="English Reflective Speech Transcript"
+          src="english_speech/index.html"
+        />
       </div>
     </div>
     <div>
       <h1>Physics Rube Goldberg Project</h1>
       <div class="center">
         <iframe
-          width="560"
+          width="360"
           height="315"
           src="https://www.youtube-nocookie.com/embed/s8IgTu7Dp1U"
           title="YouTube video player"
@@ -150,6 +156,25 @@
         demonstrations showcasing the hardware and software development.
       </p>
     </div>
+    <div>
+      <h1>Robotics Engineering Notebook</h1>
+      <div class="split">
+        <iframe
+          src="engineering_notebook/index.html"
+          frameborder="0"
+          title="Robotics engineering notebook"
+          id="notebook"
+        />
+        <p>
+          Every year there is a competition organized by FIRST. One the
+          categories one can go to state with is haveing a nice notebook. In
+          our 2022 engineering notebook we detailed how we were able to re-design 
+          the entire robot from a giant machine that only worked for some of the challenges
+          into an award winning industrial desinged robot that was able to achive the 
+          top score in the state for a while.
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -161,5 +186,14 @@
   }
   .grid img {
     max-width: 560px;
+  }
+  .split {
+    display: flex;
+    flex-direction: row;
+  }
+  #notebook {
+    min-width: 800px;
+    height: 560px;
+    transform: scale(0.7);
   }
 </style>
