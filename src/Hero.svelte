@@ -96,7 +96,7 @@
     position: relative;
     z-index: 1;
     left: 40%;
-    top: 20%;
+    top: 18%;
     box-sizing: border-box;
     margin-right: 0;
     margin-left: 0;
@@ -109,7 +109,7 @@
   #profile-picture {
     position: relative;
     left: 10%;
-    top: -13rem;
+    top: -23rem;
     width: min-content;
   }
   #profile-picture img {
@@ -127,15 +127,10 @@
       top: -50%;
     }
   }
-  @media only screen and (max-width: 1000px) {
+
+  @media only screen and (max-width: 1200px) {
     #profile-picture {
-      top: -60%;
-      left: 5%;
-    }
-  }
-  @media only screen and (max-width: 900px) {
-    #profile-picture {
-      top: -60%;
+      top: -85%;
       left: 10%;
     }
     #profile-picture img {

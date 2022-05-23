@@ -18,9 +18,9 @@
     </div>
     <div>
       <h1>English Reflective Speech</h1>
-      <div class="split">
+      <div class="">
         <iframe
-          width="350"
+          width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/1tvtL8xaaks"
           title="YouTube video player"
@@ -28,19 +28,13 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         />
-        <iframe
-          width="560"
-          height="315"
-          title="English Reflective Speech Transcript"
-          src="english_speech/index.html"
-        />
       </div>
     </div>
     <div>
       <h1>Physics Rube Goldberg Project</h1>
       <div class="center">
         <iframe
-          width="360"
+          width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/s8IgTu7Dp1U"
           title="YouTube video player"
@@ -158,7 +152,7 @@
     </div>
     <div>
       <h1>Robotics Engineering Notebook</h1>
-      <div class="split">
+      <div class="split-l">
         <iframe
           src="engineering_notebook/index.html"
           frameborder="0"
@@ -187,13 +181,14 @@
   .grid img {
     max-width: 560px;
   }
-  .split {
-    display: flex;
-    flex-direction: row;
+  .split-l {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
   }
   #notebook {
-    min-width: 800px;
-    height: 560px;
-    transform: scale(0.7);
+    min-width: 100%;
+    height: 100%;
   }
 </style>
